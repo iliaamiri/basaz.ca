@@ -63,6 +63,8 @@
 								</li>
 								<li><a href="#id2">About</a>
 								</li>
+								<li><a href="#id3">service</a>
+								</li>
 								<li><a href="#id7">contact us</a>
 								</li>
 							</ul><!-- raising-menu -->
@@ -218,6 +220,115 @@
 					</div>
 				</section>
 				<!-- End / Section -->
+				
+				<!-- Section -->
+				<section class="md-section" id="id3">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-2 ">
+								
+								<!-- sec-title -->
+								<div class="sec-title sec-title__lg-title md-text-center">
+									<h2 class="sec-title__title">Our services</h2><span class="sec-title__divider"></span>
+								</div><!-- End / sec-title -->
+								
+							</div>
+						</div>
+						<div class="row row-eq-height">
+							<div class="col-sm-6 col-md-6 col-lg-4 ">
+								
+								<!-- services -->
+								<div class="services">
+									<div class="services__img"><img src="assets/img/service/1.jpg" alt=""/></div>
+									<h2 class="services__title"><a href="#">General Contracting</a></h2>
+									<div class="services__desc">Curabitur elementum urna augue, eu porta purus gravida in. Cras consectetur, lorem a cursus vestibulum, ligula purus</div>
+									
+									<!-- btn -->
+									<a class="btn btn btn-primary btn-custom" href="service-single.html">read more
+									</a><!-- End / btn -->
+									
+								</div><!-- End / services -->
+								
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-4 ">
+								
+								<!-- services -->
+								<div class="services">
+									<div class="services__img"><img src="assets/img/service/2.jpg" alt=""/></div>
+									<h2 class="services__title"><a href="#">Concept and Design</a></h2>
+									<div class="services__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut laoreet ut lacus a tincidunt. Quisque luctus nibh augue, non</div>
+									
+									<!-- btn -->
+									<a class="btn btn btn-primary btn-custom" href="service-single.html">read more
+									</a><!-- End / btn -->
+									
+								</div><!-- End / services -->
+								
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-4 ">
+								
+								<!-- services -->
+								<div class="services">
+									<div class="services__img"><img src="assets/img/service/3.jpg" alt=""/></div>
+									<h2 class="services__title"><a href="#">Metal Roofing</a></h2>
+									<div class="services__desc">Duis porttitor libero ac egestas euismod. Maecenas quis felis turpis. Nulla quis turpis sed augue egestas dapibus vel at</div>
+									
+									<!-- btn -->
+									<a class="btn btn btn-primary btn-custom" href="service-single.html">read more
+									</a><!-- End / btn -->
+									
+								</div><!-- End / services -->
+								
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-4 ">
+								
+								<!-- services -->
+								<div class="services">
+									<div class="services__img"><img src="assets/img/service/4.jpg" alt=""/></div>
+									<h2 class="services__title"><a href="#">Construction Consultant</a></h2>
+									<div class="services__desc">Nam elit ligula, egestas et ornare non, viverra eu justo. Aliquam ornare lectus ut pharetra dictum. Aliquam erat</div>
+									
+									<!-- btn -->
+									<a class="btn btn btn-primary btn-custom" href="service-single.html">read more
+									</a><!-- End / btn -->
+									
+								</div><!-- End / services -->
+								
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-4 ">
+								
+								<!-- services -->
+								<div class="services">
+									<div class="services__img"><img src="assets/img/service/5.jpg" alt=""/></div>
+									<h2 class="services__title"><a href="#">Construction Consultant</a></h2>
+									<div class="services__desc">Suspendisse ac elit vitae est lacinia interdum eu sit amet mauris. Phasellus aliquam nisi sit amet libero mattis ornare.</div>
+									
+									<!-- btn -->
+									<a class="btn btn btn-primary btn-custom" href="service-single.html">read more
+									</a><!-- End / btn -->
+									
+								</div><!-- End / services -->
+								
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-4 ">
+								
+								<!-- services -->
+								<div class="services">
+									<div class="services__img"><img src="assets/img/service/6.jpg" alt=""/></div>
+									<h2 class="services__title"><a href="#">General Builder</a></h2>
+									<div class="services__desc">Integer placerat ullamcorper urna nec rhoncus. Sed velit justo, lacinia non sapien imperdiet, sagittis fringilla risus.</div>
+									
+									<!-- btn -->
+									<a class="btn btn btn-primary btn-custom" href="service-single.html">read more
+									</a><!-- End / btn -->
+									
+								</div><!-- End / services -->
+								
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- End / Section -->
 
 				<!-- Section -->
 				<section class="md-section" id="id7" style="background-color:#fff;padding:60px 0 0;">
@@ -350,34 +461,34 @@
 							</div>
 							<div class="col-md-6 col-lg-3 ">
 
-								<!-- widget -->
+								<!-- widget 
 								<section class="widget">
 
-									<!-- sec-title -->
+									-- sec-title --
 									<div class="sec-title">
 										<h2 class="sec-title__title">tag</h2><span class="sec-title__divider"></span>
-									</div><!-- End / sec-title -->
+									</div>-- End / sec-title --
 
 
-									<!-- widget-tag -->
+									-- widget-tag --
 									<div class="widget-tag"><a href="#">Construction</a><a href="#">Renovation</a><a href="#">Cost Effective</a><a href="#">Highest Results</a><a href="#">Efficient</a><a href="#">Easy</a><a href="#">Trust-worthy Engineers</a><a href="#">Construction Engineers</a><a href="#">Construction in Vancouver</a><a href="#">Vancouver Renovators</a><a href="#">Various Price Options</a><a href="#">Best Renovators</a>
-									</div><!-- End /  widget-tag -->
+									</div>-- End /  widget-tag --
 
-								</section><!-- End / widget -->
+								</section>-- End / widget -->
 
 							</div>
 							<div class="col-md-6 col-lg-3 ">
 
-								<!-- widget -->
+								<!-- widget 
 								<section class="widget">
 
-									<!-- sec-title -->
+								    -- sec-title --
 									<div class="sec-title">
 										<h2 class="sec-title__title">flickr widget</h2><span class="sec-title__divider"></span>
-									</div><!-- End / sec-title -->
+									</div>-- End / sec-title --
 
 
-									<!-- widget-gallery
+									-- widget-gallery
 									<div class="widget-gallery">
 										<div class="widget-gallery__item"><a href="#" style="background-image: url('http://placehold.it/400x400');"><img src="http://placehold.it/400x400" alt=""/></a></div>
 										<div class="widget-gallery__item"><a href="#" style="background-image: url('http://placehold.it/400x400');"><img src="http://placehold.it/400x400" alt=""/></a></div>
@@ -388,9 +499,9 @@
 										<div class="widget-gallery__item"><a href="#" style="background-image: url('http://placehold.it/400x400');"><img src="http://placehold.it/400x400" alt=""/></a></div>
 										<div class="widget-gallery__item"><a href="#" style="background-image: url('http://placehold.it/400x400');"><img src="http://placehold.it/400x400" alt=""/></a></div>
 										<div class="widget-gallery__item"><a href="#" style="background-image: url('http://placehold.it/400x400');"><img src="http://placehold.it/400x400" alt=""/></a></div>
-									</div> End /  widget-gallery -->
+									</div> End /  widget-gallery --
 
-								</section><!-- End / widget -->
+								</section> End / widget -->
 
 							</div>
 							<div class="col-lg-3 ">
