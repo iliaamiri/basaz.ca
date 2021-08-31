@@ -63,6 +63,8 @@
 								</li>
 								<li><a href="#id2">About</a>
 								</li>
+								<li><a href="#id3">service</a>
+								</li>
 								<li><a href="#id7">contact us</a>
 								</li>
 							</ul><!-- raising-menu -->
@@ -111,7 +113,15 @@
 										<p class="hero__desc">We provide you multiple prices from several companies that we know and trust.</p>
 
 										<!-- btn -->
-										<a class="btn btn-primary" href="tel:+1 778 8627477">Call Us Now!
+										<a class="btn btn-primary" href="<?php 
+										    $useragent=$_SERVER['HTTP_USER_AGENT'];
+
+                                            if (preg_match('/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i',$useragent)||preg_match('/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i',substr($useragent,0,4))){
+                                                echo "tel:+1 778 8627477";
+                                            }	else{
+                                                echo "#id7";
+                                            }									
+										?>">Call Us Now!
 										</a><!-- End / btn -->
 
 									</div>
@@ -213,6 +223,130 @@
 
 								</div><!-- End / about -->
 
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- End / Section -->
+				
+				<!-- Section -->
+				<section class="md-section" id="id3">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-2 ">
+								
+								<!-- sec-title -->
+								<div class="sec-title sec-title__lg-title md-text-center">
+									<h2 class="sec-title__title">Our services</h2><span class="sec-title__divider"></span>
+								</div><!-- End / sec-title -->
+								
+							</div>
+						</div>
+						<div class="row row-eq-height">
+							<div class="col-sm-6 col-md-6 col-lg-4 ">
+								
+								<!-- services -->
+								<div class="services">
+									<div class="services__img"><img src="assets/img/service/1.jpg" alt=""/></div>
+									<h2 class="services__title"><a href="#">Pre-construction Design and Estimating</a></h2>
+									<div class="services__desc">During the design process, pre-construction cost estimates are created to help with the owner's decision-making. These early estimates are supported by schematic designs and previous jobs of similar scope. The cost estimate was formed by cost estimators on the construction team.</div>
+									
+									<!-- btn 
+									<a class="btn btn btn-primary btn-custom" href="service-single.html">read more
+									</a> End / btn -->
+									
+								</div><!-- End / services -->
+								
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-4 ">
+								
+								<!-- services -->
+								<div class="services">
+									<div class="services__img"><img src="assets/img/service/2.jpg" alt=""/></div>
+									<h2 class="services__title"><a href="#">Building Design and Permits</a></h2>
+									<div class="services__desc">A building permit (or construction permit) is an authorization that must be obtained before some types of construction works can begin. Towns, municipalities and other jurisdictions use building permits to enforce building codes that apply on a local level, ensuring that construction works comply with minimum standards.</div>
+									
+									<!-- btn 
+									<a class="btn btn btn-primary btn-custom" href="service-single.html">read more
+									</a> End / btn -->
+									
+								</div><!-- End / services -->
+								
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-4 ">
+								
+								<!-- services -->
+								<div class="services">
+									<div class="services__img"><img src="assets/img/service/3.jpg" alt=""/></div>
+									<h2 class="services__title"><a href="#">Construction Project Management</a></h2>
+									<div class="services__desc">The ultimate goal of construction project management is the full satisfaction of the client's demands for a viable project both in terms of functionality and budget.</div>
+									
+									<!-- btn 
+									<a class="btn btn btn-primary btn-custom" href="service-single.html">read more
+									</a> End / btn -->
+									
+								</div><!-- End / services -->
+								
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-4 ">
+								
+								<!-- services -->
+								<div class="services">
+									<div class="services__img"><img src="assets/img/service/4.jpg" alt=""/></div>
+									<h2 class="services__title"><a href="#">Renovation Management</a></h2>
+									<div class="services__desc">Your personal Designer and renovation manager are there to help you through every aspect of your project – from design to construction. We work with other Skylight designers, materials specialists, structural, electrical and mechanical engineers and builders to ensure that everything is planned for a seamless construction experience. In particular, your renovation manager is focused on ensuring that your renovation plan is exactly right for you and that your experience is worry-free.</div>
+									
+									<!-- btn 
+									<a class="btn btn btn-primary btn-custom" href="service-single.html">read more
+									</a> End / btn -->
+									
+								</div><!-- End / services -->
+								
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-4 ">
+								
+								<!-- services -->
+								<div class="services">
+									<div class="services__img"><img src="assets/img/service/5.jpg" alt=""/></div>
+									<h2 class="services__title"><a href="#">Office Build-outs, Renovation and Expansion</a></h2>
+									<div class="services__desc">We love working with our clients to design and build the spaces that will be the hub of their businesses for years to come. Our guided process backed by a Fixed-Price, Fixed-Schedule Commitment means that you will have peace of mind, knowing you're in good hands with our experienced team at the helm of your construction project.</div>
+									
+									<!-- btn 
+									<a class="btn btn btn-primary btn-custom" href="service-single.html">read more
+									</a> End / btn -->
+									
+								</div><!-- End / services -->
+								
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-4 ">
+								
+								<!-- services -->
+								<div class="services">
+									<div class="services__img"><img src="assets/img/service/8.jpg" alt=""/></div>
+									<h2 class="services__title"><a href="#">Basement Remodeling</a></h2>
+									<div class="services__desc">Are you planning to refinish your basement? Even if it's currently cold concrete and crammed with boxes of off-season duds, the lowest floor of your home probably has loads of potential. Treat it just as you would any of the rooms aboveground, and it might just become the most popular sport in the house—for a lot less cash than adding on.</div>
+									
+									<!-- btn 
+									<a class="btn btn btn-primary btn-custom" href="service-single.html">read more
+									</a> End / btn -->
+									
+								</div><!-- End / services -->
+								
+							</div>
+							<div class="col-sm-6 col-md-6 col-lg-4 ">
+								
+								<!-- services -->
+								<div class="services">
+									<div class="services__img"><img src="assets/img/service/6.jpg" alt=""/></div>
+									<h2 class="services__title"><a href="#">Building Sustainability</a></h2>
+									<div class="services__desc">A sustainable building or green building is an outcome of a design philosophy that focuses on increasing the efficiency of resource use — energy, water, and materials — while reducing building impacts on human health and the environment during the building's lifecycle through better siting, design and construction.</div>
+									
+									<!-- btn 
+									<a class="btn btn btn-primary btn-custom" href="service-single.html">read more
+									</a> End / btn -->
+									
+								</div><!-- End / services -->
+								
 							</div>
 						</div>
 					</div>
@@ -350,34 +484,34 @@
 							</div>
 							<div class="col-md-6 col-lg-3 ">
 
-								<!-- widget -->
+								<!-- widget 
 								<section class="widget">
 
-									<!-- sec-title -->
+									-- sec-title --
 									<div class="sec-title">
 										<h2 class="sec-title__title">tag</h2><span class="sec-title__divider"></span>
-									</div><!-- End / sec-title -->
+									</div>-- End / sec-title --
 
 
-									<!-- widget-tag -->
+									-- widget-tag --
 									<div class="widget-tag"><a href="#">Construction</a><a href="#">Renovation</a><a href="#">Cost Effective</a><a href="#">Highest Results</a><a href="#">Efficient</a><a href="#">Easy</a><a href="#">Trust-worthy Engineers</a><a href="#">Construction Engineers</a><a href="#">Construction in Vancouver</a><a href="#">Vancouver Renovators</a><a href="#">Various Price Options</a><a href="#">Best Renovators</a>
-									</div><!-- End /  widget-tag -->
+									</div>-- End /  widget-tag --
 
-								</section><!-- End / widget -->
+								</section>-- End / widget -->
 
 							</div>
 							<div class="col-md-6 col-lg-3 ">
 
-								<!-- widget -->
+								<!-- widget 
 								<section class="widget">
 
-									<!-- sec-title -->
+								    -- sec-title --
 									<div class="sec-title">
 										<h2 class="sec-title__title">flickr widget</h2><span class="sec-title__divider"></span>
-									</div><!-- End / sec-title -->
+									</div>-- End / sec-title --
 
 
-									<!-- widget-gallery
+									-- widget-gallery
 									<div class="widget-gallery">
 										<div class="widget-gallery__item"><a href="#" style="background-image: url('http://placehold.it/400x400');"><img src="http://placehold.it/400x400" alt=""/></a></div>
 										<div class="widget-gallery__item"><a href="#" style="background-image: url('http://placehold.it/400x400');"><img src="http://placehold.it/400x400" alt=""/></a></div>
@@ -388,9 +522,9 @@
 										<div class="widget-gallery__item"><a href="#" style="background-image: url('http://placehold.it/400x400');"><img src="http://placehold.it/400x400" alt=""/></a></div>
 										<div class="widget-gallery__item"><a href="#" style="background-image: url('http://placehold.it/400x400');"><img src="http://placehold.it/400x400" alt=""/></a></div>
 										<div class="widget-gallery__item"><a href="#" style="background-image: url('http://placehold.it/400x400');"><img src="http://placehold.it/400x400" alt=""/></a></div>
-									</div> End /  widget-gallery -->
+									</div> End /  widget-gallery --
 
-								</section><!-- End / widget -->
+								</section> End / widget -->
 
 							</div>
 							<div class="col-lg-3 ">
